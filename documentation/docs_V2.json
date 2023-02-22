@@ -15,8 +15,8 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "https://node-course-e-commerce-api.onrender.com/auth/logout",
-              "host": ["https://node-course-e-commerce-api.onrender.com"],
+              "raw": "http://localhost:5000/auth/logout",
+              "host": ["http://localhost:5000"],
               "path": ["auth", "logout"]
             }
           },
@@ -37,8 +37,8 @@
               }
             },
             "url": {
-              "raw": "https://node-course-e-commerce-api.onrender.com/auth/register",
-              "host": ["https://node-course-e-commerce-api.onrender.com"],
+              "raw": "http://localhost:5000/auth/register",
+              "host": ["http://localhost:5000"],
               "path": ["auth", "register"]
             }
           },
@@ -59,8 +59,8 @@
               }
             },
             "url": {
-              "raw": "https://node-course-e-commerce-api.onrender.com/auth/login",
-              "host": ["https://node-course-e-commerce-api.onrender.com"],
+              "raw": "http://localhost:5000/auth/login",
+              "host": ["http://localhost:5000"],
               "path": ["auth", "login"]
             }
           },
@@ -81,8 +81,8 @@
               }
             },
             "url": {
-              "raw": "https://node-course-e-commerce-api.onrender.com/auth/login",
-              "host": ["https://node-course-e-commerce-api.onrender.com"],
+              "raw": "http://localhost:5000/auth/login",
+              "host": ["http://localhost:5000"],
               "path": ["auth", "login"]
             }
           },
@@ -99,8 +99,8 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "https://node-course-e-commerce-api.onrender.com/users",
-              "host": ["https://node-course-e-commerce-api.onrender.com"],
+              "raw": "http://localhost:5000/users",
+              "host": ["http://localhost:5000"],
               "path": ["users"]
             }
           },
@@ -112,8 +112,8 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "https://node-course-e-commerce-api.onrender.com/users/63f426842560cec0287e6be9",
-              "host": ["https://node-course-e-commerce-api.onrender.com"],
+              "raw": "http://localhost:5000/users/63f426842560cec0287e6be9",
+              "host": ["http://localhost:5000"],
               "path": ["users", "63f426842560cec0287e6be9"]
             }
           },
@@ -125,8 +125,8 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "https://node-course-e-commerce-api.onrender.com/users/showMe",
-              "host": ["https://node-course-e-commerce-api.onrender.com"],
+              "raw": "http://localhost:5000/users/showMe",
+              "host": ["http://localhost:5000"],
               "path": ["users", "showMe"]
             }
           },
@@ -147,8 +147,8 @@
               }
             },
             "url": {
-              "raw": "https://node-course-e-commerce-api.onrender.com/users/updateUser",
-              "host": ["https://node-course-e-commerce-api.onrender.com"],
+              "raw": "http://localhost:5000/users/updateUser",
+              "host": ["http://localhost:5000"],
               "path": ["users", "updateUser"]
             }
           },
@@ -169,8 +169,8 @@
               }
             },
             "url": {
-              "raw": "https://node-course-e-commerce-api.onrender.com/users/updateUserPassword",
-              "host": ["https://node-course-e-commerce-api.onrender.com"],
+              "raw": "http://localhost:5000/users/updateUserPassword",
+              "host": ["http://localhost:5000"],
               "path": ["users", "updateUserPassword"]
             }
           },
@@ -187,8 +187,8 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "https://node-course-e-commerce-api.onrender.com/products",
-              "host": ["https://node-course-e-commerce-api.onrender.com"],
+              "raw": "http://localhost:5000/products",
+              "host": ["http://localhost:5000"],
               "path": ["products"]
             }
           },
@@ -209,8 +209,8 @@
               }
             },
             "url": {
-              "raw": "https://node-course-e-commerce-api.onrender.com/products",
-              "host": ["https://node-course-e-commerce-api.onrender.com"],
+              "raw": "http://localhost:5000/products",
+              "host": ["http://localhost:5000"],
               "path": ["products"]
             }
           },
@@ -222,8 +222,8 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "https://node-course-e-commerce-api.onrender.com/products/63f530b166fe7e3e3d6cefbf",
-              "host": ["https://node-course-e-commerce-api.onrender.com"],
+              "raw": "http://localhost:5000/products/63f530b166fe7e3e3d6cefbf",
+              "host": ["http://localhost:5000"],
               "path": ["products", "63f530b166fe7e3e3d6cefbf"]
             }
           },
@@ -244,8 +244,8 @@
               }
             },
             "url": {
-              "raw": "https://node-course-e-commerce-api.onrender.com/products/63f52ddd3ac942cb4d3a9d9e",
-              "host": ["https://node-course-e-commerce-api.onrender.com"],
+              "raw": "http://localhost:5000/products/63f52ddd3ac942cb4d3a9d9e",
+              "host": ["http://localhost:5000"],
               "path": ["products", "63f52ddd3ac942cb4d3a9d9e"]
             }
           },
@@ -257,8 +257,8 @@
             "method": "DELETE",
             "header": [],
             "url": {
-              "raw": "https://node-course-e-commerce-api.onrender.com/products/63f57e2d176a674166fcab1c",
-              "host": ["https://node-course-e-commerce-api.onrender.com"],
+              "raw": "http://localhost:5000/products/63f57e2d176a674166fcab1c",
+              "host": ["http://localhost:5000"],
               "path": ["products", "63f57e2d176a674166fcab1c"]
             }
           },
@@ -280,8 +280,8 @@
               ]
             },
             "url": {
-              "raw": "https://node-course-e-commerce-api.onrender.com/products/uploadImage",
-              "host": ["https://node-course-e-commerce-api.onrender.com"],
+              "raw": "http://localhost:5000/products/uploadImage",
+              "host": ["http://localhost:5000"],
               "path": ["products", "uploadImage"]
             }
           },
@@ -293,8 +293,8 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "https://node-course-e-commerce-api.onrender.com/products/63f530b166fe7e3e3d6cefbf/reviews",
-              "host": ["https://node-course-e-commerce-api.onrender.com"],
+              "raw": "http://localhost:5000/products/63f530b166fe7e3e3d6cefbf/reviews",
+              "host": ["http://localhost:5000"],
               "path": ["products", "63f530b166fe7e3e3d6cefbf", "reviews"]
             }
           },
@@ -311,8 +311,8 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "https://node-course-e-commerce-api.onrender.com/reviews",
-              "host": ["https://node-course-e-commerce-api.onrender.com"],
+              "raw": "http://localhost:5000/reviews",
+              "host": ["http://localhost:5000"],
               "path": ["reviews"]
             }
           },
@@ -333,8 +333,8 @@
               }
             },
             "url": {
-              "raw": "https://node-course-e-commerce-api.onrender.com/reviews",
-              "host": ["https://node-course-e-commerce-api.onrender.com"],
+              "raw": "http://localhost:5000/reviews",
+              "host": ["http://localhost:5000"],
               "path": ["reviews"]
             }
           },
@@ -346,8 +346,8 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "https://node-course-e-commerce-api.onrender.com/reviews/63f55a8289402a2d2e11550c",
-              "host": ["https://node-course-e-commerce-api.onrender.com"],
+              "raw": "http://localhost:5000/reviews/63f55a8289402a2d2e11550c",
+              "host": ["http://localhost:5000"],
               "path": ["reviews", "63f55a8289402a2d2e11550c"]
             }
           },
@@ -368,8 +368,8 @@
               }
             },
             "url": {
-              "raw": "https://node-course-e-commerce-api.onrender.com/reviews/63f5833a066c59216669c0f2",
-              "host": ["https://node-course-e-commerce-api.onrender.com"],
+              "raw": "http://localhost:5000/reviews/63f5833a066c59216669c0f2",
+              "host": ["http://localhost:5000"],
               "path": ["reviews", "63f5833a066c59216669c0f2"]
             }
           },
@@ -381,8 +381,8 @@
             "method": "DELETE",
             "header": [],
             "url": {
-              "raw": "https://node-course-e-commerce-api.onrender.com/reviews/63f5833a066c59216669c0f2",
-              "host": ["https://node-course-e-commerce-api.onrender.com"],
+              "raw": "http://localhost:5000/reviews/63f5833a066c59216669c0f2",
+              "host": ["http://localhost:5000"],
               "path": ["reviews", "63f5833a066c59216669c0f2"]
             }
           },
@@ -408,8 +408,8 @@
               }
             },
             "url": {
-              "raw": "https://node-course-e-commerce-api.onrender.com/orders",
-              "host": ["https://node-course-e-commerce-api.onrender.com"],
+              "raw": "http://localhost:5000/orders",
+              "host": ["http://localhost:5000"],
               "path": ["orders"]
             }
           },
@@ -430,8 +430,8 @@
               }
             },
             "url": {
-              "raw": "https://node-course-e-commerce-api.onrender.com/orders",
-              "host": ["https://node-course-e-commerce-api.onrender.com"],
+              "raw": "http://localhost:5000/orders",
+              "host": ["http://localhost:5000"],
               "path": ["orders"]
             }
           },
@@ -443,8 +443,8 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "https://node-course-e-commerce-api.onrender.com/orders",
-              "host": ["https://node-course-e-commerce-api.onrender.com"],
+              "raw": "http://localhost:5000/orders",
+              "host": ["http://localhost:5000"],
               "path": ["orders"]
             }
           },
@@ -456,8 +456,8 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "https://node-course-e-commerce-api.onrender.com/orders/63f5d48693953937ec473725",
-              "host": ["https://node-course-e-commerce-api.onrender.com"],
+              "raw": "http://localhost:5000/orders/63f5d48693953937ec473725",
+              "host": ["http://localhost:5000"],
               "path": ["orders", "63f5d48693953937ec473725"]
             }
           },
@@ -478,8 +478,8 @@
               }
             },
             "url": {
-              "raw": "https://node-course-e-commerce-api.onrender.com/orders/63f5d48693953937ec473725",
-              "host": ["https://node-course-e-commerce-api.onrender.com"],
+              "raw": "http://localhost:5000/orders/63f5d48693953937ec473725",
+              "host": ["http://localhost:5000"],
               "path": ["orders", "63f5d48693953937ec473725"]
             }
           },
@@ -491,8 +491,8 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "https://node-course-e-commerce-api.onrender.com/orders/showAllMyOrders",
-              "host": ["https://node-course-e-commerce-api.onrender.com"],
+              "raw": "http://localhost:5000/orders/showAllMyOrders",
+              "host": ["http://localhost:5000"],
               "path": ["orders", "showAllMyOrders"]
             }
           },
