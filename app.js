@@ -27,9 +27,9 @@ const xss = require('xss-clean');
 const cors = require('cors');
 const mongoSanitize = require('express-mongo-sanitize');
 
-//! ========================================================================
-//! ========================================================================
-//! ========================================================================
+//! ======================================== //
+//! ======================================== //
+//! ======================================== //
 
 // database
 const connectDB = require('./db/connect');
@@ -69,7 +69,7 @@ app.use(mongoSanitize());
 // =================================
 
 // using morgan package
-app.use(morgan('tiny'));
+//app.use(morgan('tiny')); //? not needed for production !!
 
 // to have access to the json data in our req body
 // we use the built in express middleware by the name of json
@@ -87,6 +87,7 @@ app.use(fileUpload());
 // routes
 // ========
 
+/*//? Not needed for production !!
 // home route - get request to home page
 app.get('/', (req, res) => {
   res.send('e-commerce api');
@@ -99,6 +100,7 @@ app.get('/api/v1', (req, res) => {
 
   res.send('e-commerce api');
 });
+*/
 
 // ====================
 // routes middleware
